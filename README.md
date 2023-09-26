@@ -10,7 +10,7 @@
     </h3>
 </html>
 
-[![Docs](https://readthedocs.org/projects/uctl/badge/?version=latest&style=plastic)](https://uctl.rtfd.io)
+[![Docs](https://docs.union.ai/getting-started/installing-development-tools)](https://uctl.rtfd.io)
 [![Current Release](https://img.shields.io/github/release/unionai/uctl.svg)](https://github.com/unionai/uctl/releases/latest)
 [![License](https://img.shields.io/badge/LICENSE-Apache2.0-ff69b4.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 [![Slack](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://slack.union.ai)
