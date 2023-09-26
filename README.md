@@ -6,7 +6,7 @@
        A cross platform CLI for unionai
     </p>
     <h3 align="center">
-        <a href="https://uctl.rtfd.io">Documentation</a>
+        <a href="https://docs.union.ai/getting-started/installing-development-tools">Documentation</a>
     </h3>
 </html>
 
