@@ -21,30 +21,36 @@ To download manually, see the [`uctl` releases](https://github.com/unionai/uctl/
 To use [Homebrew](https://brew.sh/), do this:
 
 ```shell
-$ brew tap unionai/homebrew-tap
-$ brew install uctl
+brew tap unionai/homebrew-tap
+brew install uctl
+```
+
+If you already have `uctl` and want to upgrade to latest version:
+```shell
+brew update
+brew upgrade uctl
 ```
 
 To use `curl`, set `BINDIR` to the install location (it defaults to `./bin`) and run the following command:
 
 ```shell
-$ curl -sL https://raw.githubusercontent.com/unionai/uctl/main/install.sh | bash
+curl -sL https://raw.githubusercontent.com/unionai/uctl/main/install.sh | bash
 ```
 
 ### Linux
 
 To use `curl`, set `BINDIR` to the install location (it defaults to `./bin`) and run the following command:
 
-```{code-block} shell
-$ curl -sL https://raw.githubusercontent.com/unionai/uctl/main/install.sh | bash
+```shell
+curl -sL https://raw.githubusercontent.com/unionai/uctl/main/install.sh | bash
 ```
 
 ### Windows
 
 To use `curl`, in a Linux shell (such as [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)), set `BINDIR` to the install location (it defaults to `./bin`) and run the following command:
 
-``` shell
-$ curl -sL https://raw.githubusercontent.com/unionai/uctl/main/install.sh | bash
+```shell
+curl -sL https://raw.githubusercontent.com/unionai/uctl/main/install.sh | bash
 ```
 
 ## Configuring `uctl`
@@ -52,7 +58,7 @@ $ curl -sL https://raw.githubusercontent.com/unionai/uctl/main/install.sh | bash
 To configure `uctl` to connect to your Union instance, run the following command:
 
 ``` shell
-$ uctl config init --host <union-host-url>
+uctl config init --host <union-host-url>
 ```
 
 Where `<union-host-url>` is the URL of your Union instance.
